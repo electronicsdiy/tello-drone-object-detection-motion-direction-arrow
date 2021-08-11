@@ -1,12 +1,6 @@
-# python3 tello_camera_image_object_motion_window.py
+# Display Tello Drone's 1st Person Camera Frame Image, Detected Objects' Motion Vector, and Drone's Status Information
 
-<img width="840" alt="スクリーンショット 2021-08-11 23 50 39" src="https://user-images.githubusercontent.com/87643752/129051810-551feb65-992a-4f5a-8281-fd97858bea75.png">
-
-<img width="858" alt="スクリーンショット 2021-08-11 23 50 54" src="https://user-images.githubusercontent.com/87643752/129051832-949d3be3-8a5d-42cd-9ff4-456d900802fc.png">
-
-<img width="958" alt="スクリーンショット 2021-08-11 23 51 05" src="https://user-images.githubusercontent.com/87643752/129051846-0a60cfe6-a1aa-49ea-8f75-3f62f670f483.png">
-
-<img width="952" alt="スクリーンショット 2021-08-11 23 51 14" src="https://user-images.githubusercontent.com/87643752/129051862-ac03717f-be71-4846-9bfe-13d67c8534ab.png">
+<img width="958" alt="スクリーンショット 2021-08-12 0 41 06" src="https://user-images.githubusercontent.com/87643752/129060904-81aec5e8-6b9d-4963-9238-61aa7ce655fa.png">
 
 
 ### 解説記事
@@ -18,7 +12,7 @@
 1. このリポジトリの資源をgit cloneしたノートPCを、TelloにWifi接速する。
 2. **examplesディレクトリ**に移動して、Python3系で、**python3 tello_camera_image_object_motion_window.py**を実行する。
 
-> % python3 tello_camera_image_object_motion_window.py
+> % python3 motion_arrow_flight_info.py
 
 
 ### 1. Telloドローンのキーボード操作
@@ -47,6 +41,8 @@ TelloとWifi回線でつながっているノートPCのキーボードから、
 青矢印は、対象となる物体の内部や外周の複数の座標位置に表示されます。各矢印は、それぞれの位置における対象物体（人間、動物を含む）の運動ベクトルを示しています。
 
 また、画面全体の移動の運動ベクトルを、赤矢印（１つだけ）表示します。
+
+さらに画面の左上に、Telloドローンの現在高度が表示されます。
 
 画面の左側に表示されるTelloカメラ画像の受信と、PCのキーボード入力によるTelloの操縦は、**DJITelloPyライブラリ**を使います。
 
