@@ -1,21 +1,14 @@
-# Display Tello Drone's 1st Person Camera Frame Image, Detected Objects' Motion Vector, and Drone's Status Information
-
-<img width="958" alt="スクリーンショット 2021-08-12 0 41 06" src="https://user-images.githubusercontent.com/87643752/129060904-81aec5e8-6b9d-4963-9238-61aa7ce655fa.png">
-
-次の画像では、Telloの正面にあるTV画面の上端に沿って、「↓」がたくさん並んでいる。
-これは、ホバリング中のTelloの機体がわずかに上下に揺れていた中で、このシーンを「p」ボタンで撮影した瞬間、**Telloが上方向に揺れていたため、Telloから見てTV画面が（相対的に）下方向に動いて見えたから**だと考えらえる。
-
-<img width="849" alt="スクリーンショット 2021-08-11 23 50 19" src="https://user-images.githubusercontent.com/87643752/129139812-f57b97de-09a1-49bb-88a6-d091eb95eaab.png">
+# Display Tello Drone's 1st Person Camera's Detected Objection Information, those Objects' Motion Vector, and Drone's Status Information
 
 
 ## 解説記事
 
-#### [ドローンのカメラ画像にモーション解析をリアルタイム実行！画面内の物体の移動方向を矢印表示♫](https://qiita.com/electronics_diy721/items/40745cd41baf11fc1d7d)
+#### [作成中]()
 
 ## **使い方** 
 
 1. このリポジトリの資源をgit cloneしたノートPCを、TelloにWifi接速する。
-2. **examplesディレクトリ**に移動して、Python3系で、**python3 tello_camera_image_object_motion_window.py**を実行する。
+2. **examplesディレクトリ**に移動して、Python3系で、**python3 tello_motion_vector.py**を実行する。
 
 > % python3 motion_arrow_flight_info.py
 
