@@ -1,1 +1,1 @@
-This is file is intetionally brank.
+This is file is intetionally blank.
