@@ -1,5 +1,16 @@
 # Display Tello Drone's 1st Person Camera's Detected Objection Information, those Objects' Motion Vector, and Drone's Status Information
 
+- Telloをホバリング飛行させて、Tello自身の動きがない状況を作り、被写体の動きの方向を線で可視化できるか実験した
+- テレビカメラの正面でホバリングを行い、テレビ画面の中の人物や物体の動きをTelloのカメラに見せた
+- ウィンドウに表示される画像は、Telloの動きから5秒ほど遅延した （Macbookの計算速度のスペックの問題）
+- MP4ファイルを入力したときは、物体の動きの方向（＋速度）をきれいに可視化できたが、今回はきれいに描画できなかった
+
+![frame_img_shot_2021年08月15日00:02:34](https://user-images.githubusercontent.com/87643752/129451803-c307e57f-f89b-46a0-8f70-a71d7c211d0f.jpg)
+
+![frame_img_shot_2021年08月14日23:21:16](https://user-images.githubusercontent.com/87643752/129451825-1dbd6458-e297-4d24-97ae-1f13ab9b7e90.jpg)
+
+![frame_img_shot_2021年08月14日23:59:28](https://user-images.githubusercontent.com/87643752/129451839-927051d6-de42-4ed7-87f5-0ed01ccfc7d0.jpg)
+
 
 ## 解説記事
 
