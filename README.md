@@ -1,4 +1,4 @@
-# Display Tello Drone's 1st Person Camera's Detected Objection Information, those Objects' Motion Vector, and Drone's Status Information
+### Display Tello Drone's 1st Person Camera's Detected Objection Information, those Objects' Motion Vector, and Drone's Status Information
 
 - Telloをホバリング飛行させて、Tello自身の動きがない状況を作り、被写体の動きの方向を線で可視化できるか実験した
 - テレビカメラの正面でホバリングを行い、テレビ画面の中の人物や物体の動きをTelloのカメラに見せた
@@ -14,7 +14,7 @@
 
 ## 解説記事
 
-#### [作成中]()
+#### [Telloドローンカメラ画像に、SitarHarmonicsさんの物体の運動方向を可視化する処理をかけてみた](https://qiita.com/electronics_diy721/items/114fd7ee50afb8e28d26)
 
 ## **使い方** 
 
